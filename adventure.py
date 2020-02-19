@@ -31,6 +31,8 @@ print("")
 
 option = 0
 while option != 'q':
+  os.system('clear')
+  print("")
   print("What adventure do you want today?")
   print("Enter 1 for dragon riding")
   print("Enter 2 for dragon poo duty")
@@ -57,3 +59,7 @@ while option != 'q':
     print("I'm sorry to see you leave. The next boat off the island leaves in 30 minutes. Don't get eaten by a dragon before you go.")
   else:
     print("Sorry, we don't have that adventure around here. Maybe you should go visit the land of boring cats.")
+  
+  if option != 'q':
+    print("")
+    input("Press Enter to continue")
